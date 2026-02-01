@@ -29,9 +29,9 @@ interface FooterProps {
 
 const Footer = ({
   logo = {
-    src: "m-logo.svg",
+    src: "medistore-logo.svg",
     alt: "medistore logo",
-    title: "MediStore",
+    title: "",
     url: "",
   },
   className,

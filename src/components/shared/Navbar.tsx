@@ -60,9 +60,9 @@ interface NavbarProps {
 const Navbar = ({
   logo = {
     url: "",
-    src: "m-logo.svg",
+    src: "medistore-logo.svg",
     alt: "logo",
-    title: "MediStore",
+    title: "",
   },
   menu = [
     { title: "Home", url: "#" },

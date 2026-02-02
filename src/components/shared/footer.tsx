@@ -46,11 +46,7 @@ const Footer = ({
       ],
     }
   ],
-  copyright = "© 2026 MediStore All rights reserved.",
-  bottomLinks = [
-    { text: "Terms and Conditions", url: "#" },
-    { text: "Privacy Policy", url: "#" },
-  ],
+  copyright = "© 2026 MediStore All rights reserved."
 }: FooterProps) => {
   return (
     <section className={cn("py-12", className)}>
@@ -89,15 +85,8 @@ const Footer = ({
               </div>
             ))}
           </div>
-          <div className="mt-8 sm:mt-24 flex flex-col justify-between gap-4  pt-8 text-sm font-medium text-muted-foreground md:flex-row items-center">
+          <div className="mt-2 sm:mt-12 pt-8 text-sm font-medium text-muted-foreground text-center">
             <p>{copyright}</p>
-            <ul className="flex gap-4">
-              {bottomLinks.map((link, linkIdx) => (
-                <li key={linkIdx} className="underline hover:text-primary">
-                  <a href={link.url}>{link.text}</a>
-                </li>
-              ))}
-            </ul>
           </div>
         </footer>
       </div>
